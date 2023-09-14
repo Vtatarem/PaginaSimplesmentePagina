@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(5000, 5000);
  background(0); }
 
   function draw()  {
@@ -9,6 +9,6 @@ function setup() {
 // console.log(mouseIsPressed)
   
   if(mouseIsPressed) {
- circle(mouseX,mouseY, 1,1);
+ circle(mouseX,mouseY, 50,50);
  }
 }
