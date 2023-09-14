@@ -9,6 +9,6 @@ function setup() {
 // console.log(mouseIsPressed)
   
   if(mouseIsPressed) {
- circle(mouseX,mouseY, 50,50);
+ circle(mouseX,mouseY, 10,50);
  }
 }
